@@ -1,6 +1,6 @@
-# Shavowcrack_v1: Caesar Cipher Decryption Tool
+# Shadowcrack_v1: Caesar Cipher Decryption Tool
 
-Shavowcrack_v1 is a brute-force Caesar Cipher decryption tool. It attempts to decode a given ciphertext by shifting each character in the message through every possible key value until it finds a readable plaintext. This tool works with a predefined set of symbols, including uppercase and lowercase letters, numbers, spaces, and some punctuation marks.
+Shadowcrack_v1 is a brute-force Caesar Cipher decryption tool. It attempts to decode a given ciphertext by shifting each character in the message through every possible key value until it finds a readable plaintext. This tool works with a predefined set of symbols, including uppercase and lowercase letters, numbers, spaces, and some punctuation marks.
 
 ## Table of Contents
 1. [How It Works](#how-it-works)
@@ -9,7 +9,7 @@ Shavowcrack_v1 is a brute-force Caesar Cipher decryption tool. It attempts to de
 
 ## How It Works
 
-The Caesar Cipher is a type of substitution cipher where each character in the text is shifted a certain number of positions in the alphabet. Shavowcrack_v1 brute-forces the decryption by iterating through all possible shifts (or "key" values) from 0 to the total number of symbols in `SYMBOLS`. The program creates a new message with each possible key value and displays it so that the user can identify the correct decrypted message.
+The Caesar Cipher is a type of substitution cipher where each character in the text is shifted a certain number of positions in the alphabet. Shadowcrack_v1 brute-forces the decryption by iterating through all possible shifts (or "key" values) from 0 to the total number of symbols in `SYMBOLS`. The program creates a new message with each possible key value and displays it so that the user can identify the correct decrypted message.
 
 - **SYMBOLS**: A string containing all possible characters in the encrypted message, including uppercase and lowercase letters, numbers, and a few special symbols.
 - **Key**: The number of positions each symbol in the encrypted message is shifted to reveal the original text.
